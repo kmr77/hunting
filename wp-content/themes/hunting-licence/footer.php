@@ -24,6 +24,6 @@
         <div class="copy">©️hunter-license.com</div>
     </div>
 </footer>
-<script src="js/common.js"></script>
+<script src="<?php echo get_template_directory_uri() ?>/common.js" type="text/javaScript" charset="utf-8"></script>
 </body>
 </html>

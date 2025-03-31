@@ -1,3 +1,4 @@
+@charset "UTF-8";
 h1 {
   color: #fff;
 }
@@ -8,10 +9,12 @@ h1 {
 
 .main-visual {
   background-size: cover;
-  background-image: url(http://localhost:8888/huntinglicence/wp-content/uploads/2025/03/2.jpg);
   color: #fff;
   height: 200px;
   padding: 15px 0;
+}
+.ami {
+  background-image: url(http://localhost:8888/huntinglicence/wp-content/uploads/2025/03/2.jpg);
 }
 
 @media screen and (min-width: 768px) {

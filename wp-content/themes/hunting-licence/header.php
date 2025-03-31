@@ -11,7 +11,12 @@
   <link rel="stylesheet" href="<?php bloginfo ('stylesheet_url'); ?>" type="text/css" />
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/reset.css" type="text/css" />
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/common.css" type="text/css" />
-  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/question.css" type="text/css" />
+  <?php if ( is_home() || is_front_page() ) : ?>
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/top.css" type="text/css" />
+  <?php endif; ?>
+  <?php if ( is_page() ): ?>
+    <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/question.css" type="text/css" />
+  <?php endif; ?>
   <!-- JS -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js?ver=1.8.3"></script>
 </head>
