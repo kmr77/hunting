@@ -11,7 +11,7 @@
   <link rel="stylesheet" href="<?php bloginfo ('stylesheet_url'); ?>" type="text/css" />
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/reset.css" type="text/css" />
   <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/common.css" type="text/css" />
-  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/top.css" type="text/css" />
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri(); ?>/css/question.css" type="text/css" />
   <!-- JS -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js?ver=1.8.3"></script>
 </head>
@@ -68,17 +68,4 @@
             </div>
           </div>
         </div>
-
-      <div class="inner">
-        <nav class="breadcrumb">
-          <ul>
-            <li>
-              <a href="index.html">狩猟免許過去問</a>
-            </li>
-            <li>
-              <a>網猟 過去問</a>
-            </li>
-          </ul>
-        </nav>
-      </div>
     </div>
