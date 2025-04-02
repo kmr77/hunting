@@ -55,10 +55,9 @@ get_header(); ?>
             );
             $the_query = new WP_Query($args);
             ?>
+
             <!-- ランダム表示切り替えボタン -->
-            <button id="toggle-random" class="edit-btn">
-                <?php echo (isset($_GET['random']) && $_GET['random'] == '1') ? '通常順に戻す' : 'ランダムに表示'; ?>
-            </button>
+            <?php get_template_part('parts-random-btn'); ?>
 
             <?php
             if ($the_query->have_posts()) :
