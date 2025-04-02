@@ -36,20 +36,17 @@ get_header(); ?>
           <?php
             // 投稿のループを開始
             $args = array(
-                'post_type' => 'post',  // 投稿タイプが 'post' のもの
-                'posts_per_page' => -1, // すべての投稿を表示
+                //'category_name' => 'net', // カテゴリスラッグ「net」の記事のみ取得
+                'post_type' => 'post', // カテゴリスラッグ「net」の記事のみ取得
+                'posts_per_page' => -1,   // すべての投稿を表示（ページネーションなし）
             );
             $the_query = new WP_Query($args);
 
             if ($the_query->have_posts()) :
                 while ($the_query->have_posts()) : $the_query->the_post();
-                    // カスタムフィールド「title」の取得
-                    $custom_title = get_post_meta(get_the_ID(), 'title', true);
-                    
-                    if ($custom_title) :
-                        ?>
+                    ?>
                     <dt>
-                        <span class="question">問<?php the_field('no'); ?>：<?php the_field('title'); ?></span>
+                        <span class="question">問<?php the_field('no'); ?>：<?php the_title(); ?></span>
                         <button class="openclose-btn">選択肢を開閉</button>
                     </dt>
                     <dd>
@@ -67,10 +64,8 @@ get_header(); ?>
                                 <?php the_field('answer_body'); ?></span>
                             </dd>
                         </dl>
-                        <!-- <a href=""><button class="edit-btn">編集</button></a> -->
                     </dd>
                     <?php
-                    endif;
                 endwhile;
             else :
                 echo '<p>投稿が見つかりませんでした。</p>';
@@ -79,7 +74,7 @@ get_header(); ?>
             // 投稿ループをリセット
             wp_reset_postdata();
             ?>
-          </dl>
+            </dl>
       </div>
 
 <?php get_footer(); ?>
