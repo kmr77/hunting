@@ -66,3 +66,15 @@ Modal.prototype.open = function() {
 Modal.prototype.close = function() {
   this.modal.classList.remove('is-open');
 };
+
+document.addEventListener("DOMContentLoaded", function () {
+  document.getElementById("toggle-random").addEventListener("click", function () {
+      let url = new URL(window.location.href);
+      if (url.searchParams.get("random") === "1") {
+          url.searchParams.delete("random"); // 通常順に戻す
+      } else {
+          url.searchParams.set("random", "1"); // ランダムにする
+      }
+      window.location.href = url.toString(); // ページをリロード
+  });
+});

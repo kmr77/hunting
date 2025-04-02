@@ -146,6 +146,7 @@ h1 + p {
 }
 .annotation {
   color: #f00;
+  font-weight:bold;
 }
 
 .pagetop {
