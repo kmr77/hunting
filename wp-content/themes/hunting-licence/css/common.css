@@ -331,6 +331,28 @@ footer {
   outline: 0;
   padding: 8px;
 }
+.openclose-btn {
+  background-color: #aaa;
+  border: 0;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.12);
+  color: #fff;
+  cursor: pointer;
+  line-height: 1;
+  outline: 0;
+  padding: 8px;
+}
+.answer-btn {
+  background-color: #a00;
+  border: 0;
+  border-radius: 6px;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.12);
+  color: #fff;
+  cursor: pointer;
+  line-height: 1;
+  outline: 0;
+  padding: 8px;
+}
 
 .modal-nav {
   margin: 24px 0;

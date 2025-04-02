@@ -72,6 +72,11 @@ h1 {
   padding: 10px;
   margin-bottom: -1px;
 }
+#accordion dt.select-dt {
+  border: none;
+  font-size: 16px;
+  font-weight: normal;
+}
 
 #accordion dd {
   background: #F8FFFF;
@@ -80,6 +85,11 @@ h1 {
   font-size: 75%;
   padding: 10px;
   margin-bottom: -1px;
+}
+#accordion dd.answer-dd {
+  background: #fff;
+  border: 1px solid #B7D1DD;
+  display: none;
 }
 
 #accordion dt.active {

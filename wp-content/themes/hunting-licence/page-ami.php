@@ -49,17 +49,25 @@ get_header(); ?>
                     if ($custom_title) :
                         ?>
                     <dt>
-                        <span class="question"><?php the_field('title'); ?></span>
+                        <span class="question">問<?php the_field('no'); ?>：<?php the_field('title'); ?></span>
+                        <button class="openclose-btn">選択肢を開閉</button>
                     </dt>
                     <dd>
-                        <ul>
-                            <li>ア：<?php the_field('select_a'); ?></li>
-                            <li>イ：<?php the_field('select_i'); ?></li>
-                            <li>ウ：<?php the_field('select_u'); ?></li>
-                        </ul>
-                        <span class="answer">答）<?php the_field('answer'); ?><br>
-                        <?php the_field('answer_body'); ?></span>
-                        <a href=""><button class="edit-btn">編集</button></a>
+                        <dl>
+                            <dt class="select-dt">
+                                <ul>
+                                    <li>ア：<?php the_field('select_a'); ?></li>
+                                    <li>イ：<?php the_field('select_i'); ?></li>
+                                    <li>ウ：<?php the_field('select_u'); ?></li>
+                                </ul>
+                                <button class="answer-btn">答えを開閉</button>
+                            </dt>
+                            <dd class="answer-dd">
+                                <span class="answer">答）<?php the_field('answer'); ?><br>
+                                <?php the_field('answer_body'); ?></span>
+                            </dd>
+                        </dl>
+                        <!-- <a href=""><button class="edit-btn">編集</button></a> -->
                     </dd>
                     <?php
                     endif;
