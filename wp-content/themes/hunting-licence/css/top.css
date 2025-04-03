@@ -2,7 +2,6 @@
 h1 {
   color: #fff;
 }
-
 h2 {
   text-align: center;
   background: none;
@@ -20,12 +19,22 @@ h2 {
 }
 .main-visual {
   background-size: cover;
-  background-image: url(../img/2.jpg);
   color: #fff;
   height: 200px;
   padding: 15px 0;
 }
-
+.know {
+  background-image: url(http://localhost:8888/huntinglicence/wp-content/uploads/2025/04/know-scaled.jpg);
+}
+.application {
+  background-image: url(http://localhost:8888/huntinglicence/wp-content/uploads/2025/04/know-scaled.jpg);
+}
+.content {
+  background-image: url(http://localhost:8888/huntinglicence/wp-content/uploads/2025/04/know-scaled.jpg);
+}
+.regist {
+  background-image: url(http://localhost:8888/huntinglicence/wp-content/uploads/2025/04/know-scaled.jpg);
+}
 @media screen and (min-width: 768px) {
   .main-visual {
     background-size: cover;
