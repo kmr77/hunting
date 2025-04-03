@@ -24,16 +24,16 @@ h2 {
   padding: 15px 0;
 }
 .know {
-  background-image: url(http://localhost:8888/huntinglicence/wp-content/uploads/2025/04/know-scaled.jpg);
+  background-image: url(../img/know.jpg);
 }
 .application {
-  background-image: url(http://localhost:8888/huntinglicence/wp-content/uploads/2025/04/know-scaled.jpg);
+  background-image: url(../img/application.jpg);
 }
 .content {
-  background-image: url(http://localhost:8888/huntinglicence/wp-content/uploads/2025/04/know-scaled.jpg);
+  background-image: url(../img/content.jpg);
 }
 .regist {
-  background-image: url(http://localhost:8888/huntinglicence/wp-content/uploads/2025/04/know-scaled.jpg);
+  background-image: url(../img/regist.jpg);
 }
 @media screen and (min-width: 768px) {
   .main-visual {
