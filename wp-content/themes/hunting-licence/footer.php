@@ -10,8 +10,9 @@
             <li><a href="../laws/">法令問題</a></li>
             <li><a href="../type1/">一種猟銃問題</a></li>
             <li><a href="../type2/">二種猟銃問題</a></li>
-            <li><a href="../net/">網（あみ）猟問題</a></li>
-            <li><a href="../trap/">罠（わな）猟問題</a></li>
+            <li><a href="../ami/">網（あみ）猟問題</a></li>
+            <li><a href="../wana/">罠（わな）猟問題</a></li>
+            <li><a href="../animals/">鳥獣問題</a></li>
             <li><a href="../examination/">猟銃等講習会 考査問題</a></li>
             <li><a href="../numbers/">数字問題</a></li>
         </ul>

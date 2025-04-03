@@ -1,6 +1,6 @@
 <?php 
 /*
-Template Name: あみ猟問題
+Template Name: 鳥獣問題
 */
 get_header(); ?>
 <div class="inner">
@@ -8,7 +8,7 @@ get_header(); ?>
         <?php get_template_part('parts-breadcrumb'); ?>
       </div>
     </div>
-    <div class="main-visual ami">
+    <div class="main-visual animals">
       <div class="inner">
         <h1><?php the_title(); ?>｜狩猟免許試験過去問集</h1>
         <p>網猟に関する過去問を厳選し、解答と詳細な解説を付けた問題集を提供。試験頻出の知識を効率的に学べるよう構成されています。特に、網猟特有の法規制や使用できる猟具に関する問題を重点的にカバー。スマートフォン対応で、移動時間やスキマ時間を活用しながら知識を定着させることができます。狩猟免許試験の網猟分野で確実に得点できるよう、合格を目指す受験生を徹底サポートします。</p>
@@ -37,8 +37,7 @@ get_header(); ?>
             
             // 投稿のループを開始
             $args = array(
-                'category_name' => 'ami', // カテゴリスラッグ「ami」の記事のみ取得
-                //'post_type' => 'post', // カテゴリスラッグ「ami」の記事のみ取得
+                'category_name' => 'animals', // カテゴリスラッグ「animals」の記事のみ取得
                 'posts_per_page' => -1,   // すべての投稿を表示（ページネーションなし）
                 'orderby' => $orderby,    // ランダム or ID順
                 'order' => $order
