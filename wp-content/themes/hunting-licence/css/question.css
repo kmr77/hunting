@@ -14,22 +14,22 @@ h1 {
   padding: 15px 0;
 }
 .all {
-  background-image: url(http://localhost:8888/huntinglicence/wp-content/uploads/2025/04/all-scaled.jpg);
+  background-image: url(../img/all.jpg);
 }
 .laws {
-  background-image: url(http://localhost:8888/huntinglicence/wp-content/uploads/2025/03/2.jpg);
+  background-image: url(../img/laws.jpg);
 }
 .type1 {
-  background-image: url(http://localhost:8888/huntinglicence/wp-content/uploads/2025/04/kony-v2ogJh_Pbxg-unsplash-scaled.jpg);
+  background-image: url(../img/type1.jpg);
 }
 .type2 {
-  background-image: url(http://localhost:8888/huntinglicence/wp-content/uploads/2025/04/type2-scaled.jpg);
+  background-image: url(../img/type2.jpg);
 }
 .wana {
-  background-image: url(http://localhost:8888/huntinglicence/wp-content/uploads/2025/04/23989887_m.jpg);
+  background-image: url(../img/wana.jpg);
 }
 .ami {
-  background-image: url(http://localhost:8888/huntinglicence/wp-content/uploads/2025/04/2-scaled.jpg);
+  background-image: url(../img/ami.jpg);
 }
 .random-btn {
   margin:0 0 16px;
